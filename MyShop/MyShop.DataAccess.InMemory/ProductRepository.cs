@@ -19,7 +19,6 @@ namespace MyShop.DataAccess.InMemory
             if(products == null)
             {
                 products = new List<Product>();
-
             }
 
         }
