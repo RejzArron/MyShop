@@ -19,7 +19,7 @@ namespace MyShop.Core.Models
         [Range(0,1000)] //Validation for Price
         public decimal Price { get; set; }
         public string Category { get; set; }
-        public string IImage { get; set; }
+        public string Image { get; set; }
 
         //Constructor
         public Product()
